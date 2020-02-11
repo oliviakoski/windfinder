@@ -1,15 +1,9 @@
-# A basic GET request 
-# Python Cookbook, 3rd edition, David Beazley and Brian K. Jones (O'Reilly). 978-1-229-34037-7
-
 from urllib import request, parse
 
 # Base URL being accessed 
 url = 'https://developer.nrel.gov/api/wind-toolkit/wind/site_count'
 
-# Direct API call with API key:
-# https://developer.nrel.gov/api/wind-toolkit/wind/site_count.json?api_key=gkvd8S4FhRFnPitCqciuDqtIc6G0UCue7eBo13pT&wkt=
-
-# Example direct API call from browser 
+# Example direct API call from browser (with public API key)
 # https://developer.nrel.gov/api/wind-toolkit/wind/site_count.json?api_key=gkvd8S4FhRFnPitCqciuDqtIc6G0UCue7eBo13pT&wkt=POLYGON((-114.9609375 39.50404070558415,-112.67578124999999 39.50404070558415,-112.67578124999999 38.13455657705411,-114.9609375 38.13455657705411,-114.9609375 39.50404070558415))
 
 # WKT Polygon for Pennsylvania
@@ -36,4 +30,3 @@ from pprint import pprint
 
 json_resp = json.loads(resp.decode('utf-8'))
 pprint(json_resp)
-
