@@ -1,6 +1,7 @@
 # SSH into database instance 
 
-# Install PostgreSQL according to [these instructions](https://blog.insightdatascience.com/simply-install-postgresql-58c1e4ebf252)
+# Install PostgreSQL according to these instructions:
+# https://blog.insightdatascience.com/simply-install-postgresql-58c1e4ebf252
 
 sudo -u postgres -i
 cd /etc/postgresql/main/10/
