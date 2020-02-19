@@ -1,0 +1,18 @@
+# SSH into database instance 
+
+# Install PostgreSQL according to [these instructions](https://blog.insightdatascience.com/simply-install-postgresql-58c1e4ebf252)
+
+sudo -u postgres -i
+cd /etc/postgresql/main/10/
+
+nano pg_hba.conf
+nano postgresql.conf
+
+exit
+sudo service postgresql restart
+
+# Create database 
+sudo -u postgres -i
+psql
+CREATE DATABASE windfinder;
+CREATE TABLE topwind (y INT NOT NULL, x INT NOT NULL, v FLOAT8 NOT NULL, t date NOT NULL);
