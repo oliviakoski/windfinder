@@ -4,10 +4,7 @@
 Wind Finder uses Amazon Web Services cluster computing
 resources to quickly identify areas of steady, constant
 winds using data available from the National Renewable
-Energy Laboratory's WIND Toolkit dataset. These target
-areas may then be further studied by renewable energy
-entrpreneurs to determine suitability for building wind
-turbines. 
+Energy Laboratory's WIND Toolkit dataset. 
 
 This project was completed during the Insight Data
 Engineering Fellowship in early 2020, uses publicly
@@ -15,7 +12,7 @@ available wind data from the National Renewable Energy
 Laboratory to help wind power entrepreneurs discover
 areas of high wind availability. 
 
-Users can view top average wind speeds across the U.S. Data from wind speeds at typical turbine height of 100 meters is averaged from multiple daily measurements over a 2 km x 2 km grid. The top 20 sites of highest average wind speed are visualized on a map using Tableau. The user may look at top average speeds over time to determine areas worthy of further study. 
+Users can view top average wind speeds across the U.S. Data from wind speeds at typical turbine height of 100 meters is averaged from multiple daily measurements over a 2 km x 2 km grid. The top 20 sites of highest average wind speed are visualized on a map using Tableau. 
 
 Visit intuidata.live for a demo of the program
 
