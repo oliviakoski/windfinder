@@ -17,7 +17,7 @@ visualized with Tableau.
 
 ## Data Source ## 
 The NREL Wind Integration National Dataset is available via Amazon Web Service's Registry of Open Data here: https://registry.opendata.aws/nrel-pds-wtk/
-For a quick introduction to the data via API check out examples developed by NREL's Caleb Phillips (caleb.phillips@nrel.gov), John Readey (jreadey@hdfgroup.org), and Jordan Perr-Sauer (Jordan.Perr-Sauer@nrel.gov) via [hsds-examples](https://github.com/NREL/hsds-examples).
+For a quick introduction to the data via API check out examples developed by NREL's Caleb Phillips, John Readey, and Jordan Perr-Sauer via [hsds-examples](https://github.com/NREL/hsds-examples).
 
 ## Set Up and Execution ## 
 This program uses a 4 node AWS EC2 Spark cluster launched using [Pegasus](https://github.com/InsightDataScience/pegasus). Separate EC2 instances should be launched for the web server front end and PostgreSQL database. Clone this repository from the master node and run programs from the command line. Create a config file with S3 and PostgreSQL details according with the template config.ini file provided. Additional details on set up for each step in the pipeline are in docs/
