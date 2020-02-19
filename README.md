@@ -2,8 +2,8 @@
 ## Unleash the Power of Wind ##
 
 Wind Finder uses Amazon Web Services cluster computing
-resources to quickly identify areas of steady, constant
-winds using data available from the National Renewable
+resources to identify areas of steady, constant
+winds with data available from the National Renewable
 Energy Laboratory's WIND Toolkit dataset. 
 
 This project was completed during the Insight Data
