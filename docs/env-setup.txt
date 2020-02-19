@@ -1,0 +1,37 @@
+# Set up virtual environment in all nodes of cluster
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+PATH:Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+
+# logout / login
+
+# Required packages
+# awscli
+conda install -c conda-forge awscli 
+aws configure
+
+# boto3 for S3
+conda install -c conda-forge boto3 
+
+# s3fs to communicated with HDF5 in s3 
+conda install -c conda-forge s3fs
+
+# h5py to talk to .h5 files
+conda install -c anaconda h5py 
+
+# h5pyd to use NREL Wind Toolkit API
+pip install h5pyd
+
+# pandas
+conda install -c anaconda pandas 
+
+# pyscop2 for PostgreSQL communication
+conda install -c anaconda psycopg2 
+
+# pyspark 
+conda install -c conda-forge pyspark
+
+# PosgreSQL <-> Spark communication
+wget https://jdbc.postgresql.org/download.html
+mv postgresql-42.2.9.jar /home/ubuntu/sparkclass/jar/postgresql-42.2.9.jar
+
