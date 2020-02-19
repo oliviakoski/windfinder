@@ -9,11 +9,15 @@ Engineering Fellowship in early 2020.
 
 Users can view top average wind speeds across the U.S. Data from wind speeds at typical turbine height of 100 meters is averaged from multiple daily measurements across the U.S at spatial resolution or 2 km x 2 km. The top sites of highest average wind speed are visualized on a map using Tableau.
 
+![Screenshot](docs/windfinder-frontend.png)
+
 Visit [intuidata.live](http://intuidata.live) for a demo of the program
 
 ## Pipeline ## 
 The source data is available from the Amazon Open Data Registry in a S3 bucket in HDF5 (.h5 format). A 2D time slice of the data across a U.S. grid is extracted to .CSV format before processing in Spark. The .CSV formatted y-x array of wind speeds at time t is transformed to a dataframe of x, y, v, t values that are loaded to PostgreSQL, queried to identify top average speeds and 
 visualized with Tableau. 
+
+![Pipeline](docs/windfinder-pipeline.png)
 
 ## Data Source ## 
 The NREL Wind Integration National Dataset is available via Amazon Web Service's Registry of Open Data here: https://registry.opendata.aws/nrel-pds-wtk/
