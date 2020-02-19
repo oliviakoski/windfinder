@@ -7,7 +7,7 @@ winds with data available from the National Renewable
 Energy Laboratory's WIND Toolkit dataset. This project was completed during the Insight Data
 Engineering Fellowship in early 2020.
 
-Users can view top average wind speeds across the U.S. Data from wind speeds at typical turbine height of 100 meters. Speeds are averaged from multiple daily measurements across the U.S at a spatial resolution or 2 km x 2 km. The top average wind speed sites are visualized on a map using Tableau.
+Users can view top average wind speeds across the U.S. Data from hourly wind speed measurements at a typical turbine height of 100 meters. Speeds are averaged from multiple daily measurements across the U.S at a spatial resolution or 2 km x 2 km. The top average wind speed sites are visualized on a map using Tableau.
 
 ![Screenshot](docs/windfinder-frontend.png)
 
